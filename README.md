@@ -50,7 +50,7 @@ Kafka, Flink, NiFi, PostgreSQL, FastAPI, Airflow 등을 사용한 데이터 처�
 - ✅ Binance WebSocket 기반 Kafka Producer 구현
 - ✅ Flink Stream Job 작성 (Kafka → PostgreSQL)
 - ✅ Docker Compose로 전체 환경 구성
-- ✅ HTTPS 기반 인증 설정 완료 (개발용으로 간소화 가능)
+- ✅ Nifi HTTPS 기반 인증 설정 완료 (개발용으로 간소화 가능)
 
 ---
 
