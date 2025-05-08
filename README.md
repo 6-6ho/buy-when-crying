@@ -1,12 +1,10 @@
-# buy-when-crying
-
 ## 프로젝트 소개
 
 `buy-when-crying`는 시장 심리가 두려움이나 무관심으로 기울 때를 감지하고, 이를 투자 타점 판단에 참고할 수 있도록 신호 형태로 제공하는 데이터 파이프라인입니다.
 시장 참여자의 심리 변화를 정량적으로 분석하여, 과도한 공포나 관심 저하 국면을 포착하는 데 초점을 맞추고 있습니다.
 ---
 
-# 💡 프로젝트 개요
+## 💡 프로젝트 개요
 
 Kafka, Flink, NiFi, PostgreSQL, FastAPI, Airflow 등을 사용한 데이터 처리 환경을 구성했습니다.
 
@@ -37,7 +35,7 @@ Kafka, Flink, NiFi, PostgreSQL, FastAPI, Airflow 등을 사용한 데이터 처�
 | 8081      | Spark Worker 1 |                                     |
 | 8082      | Spark Worker 2 |                                     |
 | 8083      | Flink          | Flink JobManager UI                 |
-| 8084      | NiFi           | ⚠ HTTPS 기본 포트 (`https://localhost:8443/nifi`) |
+| 8084      | NiFi           | HTTPS 기본 포트 (`https://localhost:8443/nifi`) |
 | 8085      | Airflow        | Web UI                              |
 | 5432      | PostgreSQL     | DB 연결용                           |
 | 8000      | FastAPI        | API 서버 (요청 처리용)              |
